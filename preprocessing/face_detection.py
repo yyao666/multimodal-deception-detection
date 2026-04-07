@@ -7,9 +7,9 @@ and saves aligned face images for downstream visual modeling.
 
 import os
 import cv2
-from tools import FaceAlignmentTools  
 
-# from preprocessing.face_alignment_tools import FaceAlignmentTools
+# from tools import FaceAlignmentTools  
+from preprocessing.face_alignment_tools import FaceAlignmentTools
 
 
 DATA_ROOT = "data"
