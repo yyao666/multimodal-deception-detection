@@ -1,0 +1,13 @@
+numpy
+pandas
+Pillow
+PyYAML
+torch
+torchvision
+moviepy
+librosa
+matplotlib
+opencv-python
+scikit-image
+tqdm
+tflite-runtime
