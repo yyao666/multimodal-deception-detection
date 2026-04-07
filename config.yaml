@@ -1,0 +1,20 @@
+seed: 1111
+
+device: "cuda:0"
+use_data_parallel: true
+device_ids: [0, 1, 2, 3, 4, 5, 6, 7]
+
+num_folds: 4
+num_epochs: 10
+batch_size: 24
+learning_rate: 0.0003
+num_workers: 16
+
+time_window: 30.0
+fps: 2
+mode: null
+
+protocol_dir: "protocols"
+parsed_protocol_dir: "data/parsed_protocols"
+img_dir: "data/face_frames"
+spec_dir: "data/hr_spectrograms"
