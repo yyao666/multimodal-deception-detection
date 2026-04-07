@@ -31,8 +31,8 @@ import cv2
 import os
 import numpy as np
 from skimage.transform import SimilarityTransform
-from helper import get_file
-
+# from helper import get_file
+from preprocessing.helper import get_file
 
 WEIGHTS_URL = "https://github.com/martlgap/face-alignment-mtcnn/releases/latest/download/weights.zip"
 WEIGHTS_HASH = "cbd7f86aa6acb5d57c60e156c7db9ad8bc569872b687825a6fa5a063eb0fc17e"
